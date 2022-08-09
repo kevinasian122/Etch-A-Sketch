@@ -1,11 +1,13 @@
-.box{
-    
-    width:62.5px;
-    height:62.5px;
-}
 .fill{
     width:100%;
     display:none;
+}
+.input{
+    width:150px;
+    height:55px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-bottom: 50px;
 }
 .light{
     background-color: blue;
@@ -13,13 +15,18 @@
 .container{
     display:flex;
     
-    height:1000px;
-    width:1000px;
+    height:1100px;
+    width:1100px;
     flex-flow:wrap;
+    border-radius: 25px;
+    border:3px solid black;
 }
+
 body{
-display:flex;
+    display:flex;
    align-items: center;
    justify-content: center; 
+   flex-direction: column;
    min-height: 100vh;
 }
+
